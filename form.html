@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="./form.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <div>Can you please provide your personal details?</div>
+
+        <form class="form-wrapper">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" />
+            </div>
+
+            <div>
+                <label for="dob">Date of birth</label>
+                <input type="date" id="date" name="dob" />
+            </div>
+
+            <div>
+                <label for="phone">Contact number</label>
+                <input type="tel" id="phone" name="phone" />
+            </div>
+
+            <div>
+                <label for="country">Country</label>
+                <select id="country" name="country"></select>
+            </div>
+
+            <div>
+                <label for="state">State</label>
+                <select id="state" name="state"></select>
+            </div>
+
+            <div>
+                <label for="email">Your email</label>
+                <input type="email" id="email" name="email" />
+            </div>
+
+
+            <div class="submit-btn">
+                <input type="submit" value="Submit" />
+            </div>
+        </form>
+
+    </div>
+    <script src="./form.js"></script>
+
+</body>
+
+</html>

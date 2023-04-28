@@ -1,0 +1,33 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.parent-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid green;
+    box-sizing: border-box;
+}
+
+.form-iframe {
+    box-sizing: border-box;
+    border: 2px solid red;
+}
+
+#form-result{
+    font-size: 1.5em;
+    font-weight: 600;
+
+}
